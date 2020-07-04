@@ -4,13 +4,13 @@ import { apiKey } from "../components/config";
 export const AnimalContext = createContext();
 
 const AnimalContextProvider = props => {
-  const [pictures, setPictures] = useState([]);
+  const [images, setPictures] = useState([]);
   const [loading, setLoading] = useState(true);
   
   const runSearch = useCallback((animal) => {
     axios.get(`https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=${animal}&per_page=6&format=json&nojsoncallback=1`)
     .then(res => {
-        console.log(res.data.photos.photo);
+        // console.log(res.data.photos.photo);
         setPictures(res.data.photos.photo);
         setLoading(false);
 
@@ -19,12 +19,12 @@ const AnimalContextProvider = props => {
       })
   }, []);
 
-  // useEffect(() => {
-  //   runSearch('dog');
-  // }, [runSearch])
+  useEffect(() => {
+    runSearch('dog');
+  }, [runSearch])
   
   return (
-    <AnimalContext.Provider value={{ pictures, loading, runSearch }}>
+    <AnimalContext.Provider value={{ images, loading, runSearch }}>
       {props.children}
     </AnimalContext.Provider>
   );

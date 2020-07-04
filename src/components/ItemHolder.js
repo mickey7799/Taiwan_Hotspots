@@ -5,6 +5,7 @@ import Loader from "./Loader";
 
 const ItemHolder = ({ searchTerm }) => {
   const { images, loading, runSearch } = useContext(AnimalContext);
+  
   useEffect(() => {
     runSearch(searchTerm);
     // eslint-disable-next-line

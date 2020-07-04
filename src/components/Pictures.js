@@ -4,7 +4,6 @@ import Image from "./Image";
 
 const Pictures = props => {
   const data = props.images;
-  console.log(data);
   let images;
   let noImages;
   
