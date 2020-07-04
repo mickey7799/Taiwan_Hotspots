@@ -1,11 +1,11 @@
 import React from "react";
-import Container from "./Container";
+import ItemHolder from "./ItemHolder";
 
 const Item = ({ searchTerm }) => {
   return (
     <div>
       <h2>{searchTerm} Pictures</h2>
-      <Container searchTerm={searchTerm} />
+      <ItemHolder searchTerm={searchTerm} />
     </div>
   );
 };

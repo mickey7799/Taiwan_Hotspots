@@ -1,7 +1,7 @@
 import React, { createContext, useState, useEffect, useCallback } from "react";
 import axios from "axios";
 import { apiKey } from "../components/config";
-export const animalContext = createContext();
+export const AnimalContext = createContext();
 
 const AnimalContextProvider = props => {
   const [pictures, setPictures] = useState([]);
@@ -19,14 +19,14 @@ const AnimalContextProvider = props => {
       })
   }, []);
 
-  useEffect(() => {
-    runSearch('dog');
-  }, [runSearch])
+  // useEffect(() => {
+  //   runSearch('dog');
+  // }, [runSearch])
   
   return (
-    <animalContext.Provider value={{ pictures, loading, runSearch }}>
+    <AnimalContext.Provider value={{ pictures, loading, runSearch }}>
       {props.children}
-    </animalContext.Provider>
+    </AnimalContext.Provider>
   );
 };
 

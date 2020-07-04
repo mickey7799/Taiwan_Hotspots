@@ -1,12 +1,12 @@
 import React from "react";
-import AnimalContextProvider from "./context/AnimalContextProvider";
+import AnimalContextProvider from "./contexts/AnimalContext";
 import Item from "./components/Item";
 
 
 function App() {
   return (
     <AnimalContextProvider>
-      <Item/>
+      <Item searchTerm="dog" />
     
     </AnimalContextProvider>
   );

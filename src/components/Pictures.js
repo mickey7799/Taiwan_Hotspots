@@ -4,6 +4,7 @@ import Image from "./Image";
 
 const Pictures = props => {
   const data = props.images;
+  console.log(data);
   let images;
   let noImages;
   
@@ -18,7 +19,7 @@ const Pictures = props => {
       return <Image url={url} key={id} alt={title} />;
     });
   } else {
-    noImages = <NoImages />; // return 'not found' component if no images fetched
+    noImages = <NoImages />;
   }
   return (
     <div>
