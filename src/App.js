@@ -6,7 +6,7 @@ import Item from "./components/Item";
 function App() {
   return (
     <AnimalContextProvider>
-      <Item searchTerm="dog" />
+      <Item searchTerm="puppy" />
     
     </AnimalContextProvider>
   );

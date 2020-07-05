@@ -3,6 +3,7 @@ import { AnimalContext } from "../contexts/AnimalContext";
 import Pictures from "./Pictures";
 import Loader from "./Loader";
 
+
 const ItemHolder = ({ searchTerm }) => {
   const { images, loading, runSearch } = useContext(AnimalContext);
   
@@ -12,7 +13,7 @@ const ItemHolder = ({ searchTerm }) => {
   }, [searchTerm]);
 
   return (
-    <div className="photo-container">
+    <div>
       {loading ? <Loader /> : <Pictures images={images} />}
     </div>
   );

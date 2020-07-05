@@ -1,6 +1,15 @@
 import React from "react";
 import NoImages from "./NoImages";
 import Image from "./Image";
+import styled from "styled-components";
+
+const Ul = styled.ul`
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+`;
 
 const Pictures = props => {
   const data = props.images;
@@ -15,14 +24,18 @@ const Pictures = props => {
       let secret = image.secret;
       let title = image.title;
       let url = `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}_m.jpg`;
-      return <Image url={url} key={id} alt={title} />;
+      return (
+        <div key={id}>
+             <Image url={url} alt={title} />
+        </div>
+      );
     });
   } else {
     noImages = <NoImages />;
   }
   return (
     <div>
-      <ul>{images}</ul>
+      <Ul>{images}</Ul>
       {noImages}
     </div>
   );
