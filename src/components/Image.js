@@ -2,10 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 const Li = styled.li`
-  width: 220px;
-  height: 165px;
+  width: 250px;
+  height: 180px;
   overflow: hidden;
-  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
 `;
 
 const Img = styled.img`
