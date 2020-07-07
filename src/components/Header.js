@@ -5,7 +5,7 @@ import Form from "./Form";
 const Header = () => {
   return (
     <div>
-      <h1>SnapShot</h1>
+      <h1>Zoo Album</h1>
       <Form  />
       
     </div>
