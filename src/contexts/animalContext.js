@@ -19,9 +19,9 @@ const AnimalContextProvider = props => {
       })
   }, []);
 
-  useEffect(() => {
-    runSearch('puppy');
-  }, [runSearch])
+  // useEffect(() => {
+  //   runSearch('quokka');
+  // }, [runSearch])
   
   return (
     <AnimalContext.Provider value={{ images, loading, runSearch }}>

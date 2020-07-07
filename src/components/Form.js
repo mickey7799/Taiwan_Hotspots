@@ -15,6 +15,7 @@ const InputForm = styled.form`
 const Button = styled.button`
   outline: none;
   border: none;
+  background-color: #d7dbdf;
   padding: 0px 15px;
   border-radius: 0 0.35em 0.35em 0;
   cursor: pointer;
