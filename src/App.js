@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import styled from "styled-components";
 import Search from "./components/Search";
 import NotFound from "./components/NotFound";
+import Navigation from "./components/Navigation";
 
 const Container = styled.div`
     max-width: 1400px;
@@ -25,14 +26,10 @@ function App() {
     <AnimalContextProvider>
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Container>
-          <Route
-           render={props => (
-             <Header
-               handleSubmit={handleSubmit}
-               history={props.history}
-             />
-           )}
-           />
+           <Header
+              handleSubmit={handleSubmit}
+           /> 
+           <Navigation/>       
            <Switch>
              <Route
                exact 

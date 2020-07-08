@@ -1,15 +1,15 @@
 import React from "react";
 import Form from "./Form";
+import { withRouter } from "react-router-dom";
 
-
-const Header = () => {
+const Header = (props) => {
   return (
     <div>
       <h1>Zoo Album</h1>
-      <Form  />
+      <Form history={props.history} handleSubmit={props.handleSubmit}/>
       
     </div>
   );
 };
 
-export default Header;
+export default withRouter(Header);
