@@ -8,7 +8,9 @@ import Search from "./components/Search";
 import NotFound from "./components/NotFound";
 
 const Container = styled.div`
-
+    max-width: 1400px;
+    margin: auto;
+    context: center;
 `;
 
 function App() {
@@ -24,14 +26,13 @@ function App() {
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Container>
           <Route
-           exact 
-           path="/"
            render={props => (
              <Header
                handleSubmit={handleSubmit}
                history={props.history}
              />
-           )}/>
+           )}
+           />
            <Switch>
              <Route
                exact 

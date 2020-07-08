@@ -5,8 +5,8 @@ const Li = styled.li`
   width: 250px;
   height: 180px;
   overflow: hidden;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-bottom: 30px;
 `;
 
