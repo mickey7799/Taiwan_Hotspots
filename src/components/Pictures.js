@@ -6,9 +6,10 @@ import styled from "styled-components";
 const Ul = styled.ul`
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   -ms-align-items: flex-start;
   align-items: flex-start;
+  margin: 2em 2em;
 `;
 
 const Pictures = props => {

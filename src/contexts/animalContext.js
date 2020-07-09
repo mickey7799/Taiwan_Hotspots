@@ -8,7 +8,7 @@ const AnimalContextProvider = props => {
   const [loading, setLoading] = useState(true);
   
   const runSearch = useCallback((animal) => {
-    axios.get(`https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=${animal}&per_page=28&format=json&nojsoncallback=1`)
+    axios.get(`https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=${animal}&per_page=20&format=json&nojsoncallback=1`)
     .then(res => {
         // console.log(res.data.photos.photo);
         setPictures(res.data.photos.photo);

@@ -11,7 +11,6 @@ import Navigation from "./components/Navigation";
 const Container = styled.div`
     max-width: 1400px;
     margin: auto;
-    context: center;
 `;
 
 function App() {

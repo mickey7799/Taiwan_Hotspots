@@ -5,15 +5,18 @@ const Li = styled.li`
   width: 250px;
   height: 180px;
   overflow: hidden;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 30px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
 `;
 
 const Img = styled.img`
   width: 100%;
-  transform: scale(1.5);
+  height: 180px;
   transition: transform 1.5s;
+  &:hover {
+    transform: scale(1.5);
+  }
 `;
 
 const Image = ({ url, key, title }) => (
