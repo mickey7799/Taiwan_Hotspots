@@ -18,6 +18,7 @@ function App() {
     e.preventDefault();
     e.currentTarget.reset();
     let url = `/search/${searchInput}`;
+    console.log(url);
     history.push(url);
   };
 
@@ -51,12 +52,12 @@ function App() {
                path="/kangaroo"
                render={()=> <Item searchTerm="kangaroo"/>}
              />
-             {/* <Route
+             <Route
                path="/search/:searchInput"
                render={props => (
                  <Search searchTerm={props.match.params.searchInput} />
                )}
-             /> */}
+             />
              <Route component={NotFound} />
            </Switch>
         </Container>

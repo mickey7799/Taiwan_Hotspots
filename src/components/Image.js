@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const Li = styled.li`
-  width: 250px;
-  height: 180px;
+  width: 240px;
+  height: 175px;
   overflow: hidden;
   margin-left: 0.5em;
   margin-right: 0.5em;
@@ -12,7 +12,8 @@ const Li = styled.li`
 
 const Img = styled.img`
   width: 100%;
-  height: 180px;
+  height: 175px;
+  transform: scale(1.2);
   transition: transform 1.5s;
   &:hover {
     transform: scale(1.5);

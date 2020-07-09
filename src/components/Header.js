@@ -7,7 +7,6 @@ const Header = (props) => {
     <div>
       <h1>Zoo Album</h1>
       <Form history={props.history} handleSubmit={props.handleSubmit}/>
-      
     </div>
   );
 };

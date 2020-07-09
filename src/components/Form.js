@@ -32,16 +32,14 @@ const Input = styled.input`
   outline: none;
 `;
 
-const Form = () => {
+const Form = ( {history, handleSubmit} ) => {
     const [inputSearch, setInputSearch] = useState("");
 
     const handleOnChange = (e) => {
-        setInputSearch(e.value);
+        setInputSearch(e.target.value);
     };
     return (
-        <InputForm
-        
-        >
+        <InputForm onSubmit={e => handleSubmit(e, history, inputSearch)}>
             <Input
                 type="text"
                 name="search"
@@ -51,9 +49,9 @@ const Form = () => {
             />
             <Button
                 type="submit"
-                disbaled={!inputSearch}
+                disbaled={!inputSearch.trim()}
             > 
-             <Img src="/images/search.svg" alt="seaech"></Img>
+             <Img src="/images/search.svg" alt="search"></Img>
 
             </Button>
 
