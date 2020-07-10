@@ -43,7 +43,7 @@ const Form = ( {history, handleSubmit} ) => {
             <Input
                 type="text"
                 name="search"
-                placeholder="Search for animals"
+                placeholder="Search for sceneries..."
                 onChange={handleOnChange}
                 value={inputSearch}
             />

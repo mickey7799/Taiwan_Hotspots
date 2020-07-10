@@ -40,8 +40,8 @@ function App() {
                render={()=> <Item searchTerm="taipei101"/>}
              />
              <Route 
-               path="/Jioufen"
-               render={()=> <Item searchTerm="Jioufen"/>}
+               path="/jioufen"
+               render={()=> <Item searchTerm="jioufen"/>}
              />
              <Route 
                path="/yangmingshan"
@@ -50,6 +50,14 @@ function App() {
              <Route 
                path="/kenting"
                render={()=> <Item searchTerm="kenting"/>}
+             />
+             <Route 
+               path="/shichisei"
+               render={()=> <Item searchTerm="shichisei"/>}
+             />
+             <Route 
+               path="/sunmoonlake"
+               render={()=> <Item searchTerm="sun moon lake"/>}
              />
              <Route
                path="/search/:searchInput"

@@ -4,8 +4,9 @@ import styled from "styled-components";
 
 
 const Li = styled.li`
-    width: 100px;
+    width: 140px;
     margin: 10px;
+    font-size: 18px;
 `;
 
 const Ul = styled.ul`
@@ -19,10 +20,12 @@ const Navigation = () => {
     return (
         <nav className="main-nav">
             <Ul>
-              <Li><NavLink to="/quokka">Quokka</NavLink></Li>
-              <Li><NavLink to="/Koala">Koala</NavLink></Li>
-              <Li><NavLink to="/Dingo">Dingo</NavLink></Li>
-              <Li><NavLink to="/Kangaroo">Kangaroo</NavLink></Li>
+              <Li><NavLink to="/taipei101">Taipei 101</NavLink></Li>
+              <Li><NavLink to="/jioufen">Jioufen</NavLink></Li>
+              <Li><NavLink to="/yangmingshan">Yangmingshan</NavLink></Li>
+              <Li><NavLink to="/kenting">Kenting</NavLink></Li>
+              <Li><NavLink to="/shichisei">Shichisei</NavLink></Li>
+              <Li><NavLink to="/sunmoonlake">Sun Moon Lake</NavLink></Li>
             </Ul>
            
         </nav>
