@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect, useCallback } from "react";
+import React, { createContext, useState, useCallback } from "react";
 import axios from "axios";
 import { apiKey } from "../components/config";
 export const AnimalContext = createContext();
@@ -17,10 +17,6 @@ const AnimalContextProvider = props => {
         console.log('error')
       })
   }, []);
-
-  useEffect(() => {
-    runSearch('quokka');
-  }, [runSearch])
   
   return (
     <AnimalContext.Provider value={{ images, loading, runSearch }}>

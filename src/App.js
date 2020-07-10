@@ -18,7 +18,6 @@ function App() {
     e.preventDefault();
     e.currentTarget.reset();
     let url = `/search/${searchInput}`;
-    console.log(url);
     history.push(url);
   };
 
@@ -34,23 +33,23 @@ function App() {
              <Route
                exact 
                path="/"
-               render={()=> <Redirect to="/quokka"/>}
+               render={()=> <Redirect to="/taipei101"/>}
              />
               <Route 
-               path="/quokka"
-               render={()=> <Item searchTerm="quokka"/>}
+               path="/taipei101"
+               render={()=> <Item searchTerm="taipei101"/>}
              />
              <Route 
-               path="/koala"
-               render={()=> <Item searchTerm="koala"/>}
+               path="/Jioufen"
+               render={()=> <Item searchTerm="Jioufen"/>}
              />
              <Route 
-               path="/dingo"
-               render={()=> <Item searchTerm="dingo"/>}
+               path="/yangmingshan"
+               render={()=> <Item searchTerm="yangmingshan"/>}
              />
              <Route 
-               path="/kangaroo"
-               render={()=> <Item searchTerm="kangaroo"/>}
+               path="/kenting"
+               render={()=> <Item searchTerm="kenting"/>}
              />
              <Route
                path="/search/:searchInput"
