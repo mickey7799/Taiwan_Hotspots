@@ -31,7 +31,7 @@ a {
 
 .main-nav a {
   display: block;
-  background: #051c33;
+  background: #4B77BE;
   border-radius: 3px;
   padding: 5px;
   color: #fff;
@@ -39,7 +39,7 @@ a {
 
 .main-nav .active,
 .main-nav a:hover {
-  background-color: #051c33;
+  background-color: #1F4788;
 }
 
 

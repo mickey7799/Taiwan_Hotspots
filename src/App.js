@@ -52,12 +52,20 @@ function App() {
                render={()=> <Item searchTerm="kenting"/>}
              />
              <Route 
-               path="/shichisei"
-               render={()=> <Item searchTerm="shichisei"/>}
+               path="/shifen"
+               render={()=> <Item searchTerm="shifen"/>}
              />
              <Route 
                path="/sunmoonlake"
                render={()=> <Item searchTerm="sun moon lake"/>}
+             />
+             <Route 
+               path="/qingjing"
+               render={()=> <Item searchTerm="qingjing"/>}
+             />
+             <Route 
+               path="/Sanxiantai"
+               render={()=> <Item searchTerm="sanxiantai"/>}
              />
              <Route
                path="/search/:searchInput"
