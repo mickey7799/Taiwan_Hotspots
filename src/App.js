@@ -7,6 +7,7 @@ import styled from "styled-components";
 import Search from "./components/Search";
 import NotFound from "./components/NotFound";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 const Container = styled.div`
     max-width: 1400px;
@@ -76,6 +77,7 @@ function App() {
              <Route component={NotFound} />
            </Switch>
         </Container>
+        <Footer/>
 
       </HashRouter>
     
