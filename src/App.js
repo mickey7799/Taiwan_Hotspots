@@ -1,5 +1,5 @@
 import React from "react";
-import AnimalContextProvider from "./contexts/AnimalContext";
+import PictureContextProvider from "./contexts/PictureContext";
 import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import Item from "./components/Item";
 import Header from "./components/Header";
@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <AnimalContextProvider>
+    <PictureContextProvider>
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Container>
            <Header
@@ -81,7 +81,7 @@ function App() {
 
       </HashRouter>
     
-    </AnimalContextProvider>
+    </PictureContextProvider>
   );
 }
 

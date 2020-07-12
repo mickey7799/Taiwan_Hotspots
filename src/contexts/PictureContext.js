@@ -1,9 +1,10 @@
 import React, { createContext, useState, useCallback } from "react";
 import axios from "axios";
-import { apiKey } from "../components/config";
-export const AnimalContext = createContext();
+//import { apiKey } from "../components/config";
+export const PictureContext = createContext();
+const apiKey = process.env.REACT_APP_AUTH_TOKEN;
 
-const AnimalContextProvider = props => {
+const PictureContextProvider = props => {
   const [images, setPictures] = useState([]);
   const [loading, setLoading] = useState(true);
   
@@ -19,10 +20,10 @@ const AnimalContextProvider = props => {
   }, []);
   
   return (
-    <AnimalContext.Provider value={{ images, loading, runSearch }}>
+    <PictureContext.Provider value={{ images, loading, runSearch }}>
       {props.children}
-    </AnimalContext.Provider>
+    </PictureContext.Provider>
   );
 };
 
-export default AnimalContextProvider;
+export default PictureContextProvider;
