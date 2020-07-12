@@ -51,7 +51,7 @@ const Form = ( {history, handleSubmit} ) => {
                 type="submit"
                 disbaled={!inputSearch.trim()}
             > 
-             <Img src="/images/search.svg" alt="search"></Img>
+             <Img src="images/search.svg" alt="search"></Img>
 
             </Button>
 
