@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Taiwan_Hotspots/static/css/main.cfb61989.chunk.css",
+    "main.js": "/Taiwan_Hotspots/static/js/main.810ef1bc.chunk.js",
+    "main.js.map": "/Taiwan_Hotspots/static/js/main.810ef1bc.chunk.js.map",
+    "runtime-main.js": "/Taiwan_Hotspots/static/js/runtime-main.3ef29b77.js",
+    "runtime-main.js.map": "/Taiwan_Hotspots/static/js/runtime-main.3ef29b77.js.map",
+    "static/js/2.18f4331c.chunk.js": "/Taiwan_Hotspots/static/js/2.18f4331c.chunk.js",
+    "static/js/2.18f4331c.chunk.js.map": "/Taiwan_Hotspots/static/js/2.18f4331c.chunk.js.map",
+    "index.html": "/Taiwan_Hotspots/index.html",
+    "precache-manifest.c5d7d7147e7f82f46bb143720bcff611.js": "/Taiwan_Hotspots/precache-manifest.c5d7d7147e7f82f46bb143720bcff611.js",
+    "service-worker.js": "/Taiwan_Hotspots/service-worker.js",
+    "static/css/main.cfb61989.chunk.css.map": "/Taiwan_Hotspots/static/css/main.cfb61989.chunk.css.map",
+    "static/js/2.18f4331c.chunk.js.LICENSE.txt": "/Taiwan_Hotspots/static/js/2.18f4331c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ef29b77.js",
+    "static/js/2.18f4331c.chunk.js",
+    "static/css/main.cfb61989.chunk.css",
+    "static/js/main.810ef1bc.chunk.js"
+  ]
+}
