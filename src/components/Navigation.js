@@ -13,7 +13,8 @@ const Ul = styled.ul`
     display: flex;
     justify-content: center;
     flex-direction: row;
-    width: 800px;
+    width: 50%;
+    max-width: 50%;
     margin:auto;
     flex-wrap: wrap;
 `;
