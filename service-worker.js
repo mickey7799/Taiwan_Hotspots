@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Taiwan_Hotspots/precache-manifest.8a5e2d3a8812d9aa14b7994b29c51930.js"
+  "/Taiwan_Hotspots/precache-manifest.94910191dc3e609c0d595261f8c6e889.js"
 );
 
 self.addEventListener('message', (event) => {

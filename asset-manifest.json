@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Taiwan_Hotspots/static/css/main.cfb61989.chunk.css",
-    "main.js": "/Taiwan_Hotspots/static/js/main.94477b54.chunk.js",
-    "main.js.map": "/Taiwan_Hotspots/static/js/main.94477b54.chunk.js.map",
+    "main.js": "/Taiwan_Hotspots/static/js/main.d6df1d18.chunk.js",
+    "main.js.map": "/Taiwan_Hotspots/static/js/main.d6df1d18.chunk.js.map",
     "runtime-main.js": "/Taiwan_Hotspots/static/js/runtime-main.3ef29b77.js",
     "runtime-main.js.map": "/Taiwan_Hotspots/static/js/runtime-main.3ef29b77.js.map",
-    "static/js/2.6584736b.chunk.js": "/Taiwan_Hotspots/static/js/2.6584736b.chunk.js",
-    "static/js/2.6584736b.chunk.js.map": "/Taiwan_Hotspots/static/js/2.6584736b.chunk.js.map",
+    "static/js/2.23a9aca3.chunk.js": "/Taiwan_Hotspots/static/js/2.23a9aca3.chunk.js",
+    "static/js/2.23a9aca3.chunk.js.map": "/Taiwan_Hotspots/static/js/2.23a9aca3.chunk.js.map",
     "index.html": "/Taiwan_Hotspots/index.html",
-    "precache-manifest.8a5e2d3a8812d9aa14b7994b29c51930.js": "/Taiwan_Hotspots/precache-manifest.8a5e2d3a8812d9aa14b7994b29c51930.js",
+    "precache-manifest.94910191dc3e609c0d595261f8c6e889.js": "/Taiwan_Hotspots/precache-manifest.94910191dc3e609c0d595261f8c6e889.js",
     "service-worker.js": "/Taiwan_Hotspots/service-worker.js",
     "static/css/main.cfb61989.chunk.css.map": "/Taiwan_Hotspots/static/css/main.cfb61989.chunk.css.map",
-    "static/js/2.6584736b.chunk.js.LICENSE.txt": "/Taiwan_Hotspots/static/js/2.6584736b.chunk.js.LICENSE.txt"
+    "static/js/2.23a9aca3.chunk.js.LICENSE.txt": "/Taiwan_Hotspots/static/js/2.23a9aca3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3ef29b77.js",
-    "static/js/2.6584736b.chunk.js",
+    "static/js/2.23a9aca3.chunk.js",
     "static/css/main.cfb61989.chunk.css",
-    "static/js/main.94477b54.chunk.js"
+    "static/js/main.d6df1d18.chunk.js"
   ]
 }
